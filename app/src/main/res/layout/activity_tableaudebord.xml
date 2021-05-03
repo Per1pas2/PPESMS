@@ -26,7 +26,7 @@
             android:id="@+id/BTN_ARRIVE"
             android:layout_width="239dp"
             android:layout_height="50dp"
-            android:text="Historiques interventions"
+            android:text="Nouvelle arrivée"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
             android:id="@+id/BTN_DEPART"
             android:layout_width="239dp"
             android:layout_height="50dp"
-            android:text="Historiques interventions"
+            android:text="Nouveau départ"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -56,18 +56,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.132" />
-
-        <Button
-            android:id="@+id/BTN_HISTORIQUES"
-            android:layout_width="239dp"
-            android:layout_height="50dp"
-            android:text="Historiques interventions"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.316" />
 
         <TextView
             android:id="@+id/LBL_SOCIETE"

@@ -10,10 +10,10 @@
         android:id="@+id/textView13"
         android:layout_width="160dp"
         android:layout_height="19dp"
-        android:text="Heure de départ (Y-M-D)"
+        android:text="Heure de départ (h : m)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintHorizontal_bias="0.394"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.64" />
@@ -46,10 +46,10 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sélectionnez le logement"
+        android:text="Sélectionnez le type d'intervention"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintHorizontal_bias="0.374"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.453" />
@@ -93,8 +93,10 @@
 
     <Spinner
         android:id="@+id/SPN_LOGEMENT"
+        style="@style/CardView.Dark"
         android:layout_width="264dp"
         android:layout_height="49dp"
+        android:background="#00000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
