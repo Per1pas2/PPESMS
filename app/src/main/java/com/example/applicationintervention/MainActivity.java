@@ -28,11 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
             try {
                 String Identifiant_TEST = Identifiant.getText().toString();
-
                 String Mdp_TEST = Mdp.getText().toString();
-
-
-
                 Intent i = new Intent(MainActivity.this, tableaudebord.class);
                 startActivity(i);
             }catch (Exception e)
@@ -43,8 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
-
-
             }
         });
     }
