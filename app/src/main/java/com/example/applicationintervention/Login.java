@@ -19,6 +19,7 @@ public class Login {
 
     public static Object executeQuery(String query){
         try {
+
             Class.forName("com.mysql.jdbc.Driver").newInstance();
             Login.dbConnect = DriverManager.getConnection("jdbc:mysql:" + ip+"/"+db, username, password);
             dbStatement = dbConnect.createStatement();

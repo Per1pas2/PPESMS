@@ -12,7 +12,6 @@ public class RequetesSQL {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
         return -1;
     }
 }
